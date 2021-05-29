@@ -2,18 +2,24 @@ p{
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 45px;
-    line-height: 56px;
     color: #52575C;
     text-align: center;
     margin: 0px;
+}
+.noOfDays{
+    font-size: 35px;
+    line-height: 40px;
 }
 .output-header {
     font-family: Nunito Sans;
     color: #52575C;
     padding: 10px;
+    margin-bottom: 0;
 }
 .output-block {
     background-color: #E5ECF6;
     border-radius: 4px;
+}
+.otherOutput {
+    font-size: 16px;
 }
