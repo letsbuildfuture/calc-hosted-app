@@ -1,0 +1,19 @@
+p{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 56px;
+    color: #52575C;
+    text-align: center;
+    margin: 0px;
+}
+.output-header {
+    font-family: Nunito Sans;
+    color: #52575C;
+    padding: 10px;
+}
+.output-block {
+    background-color: #E5ECF6;
+    border-radius: 4px;
+}

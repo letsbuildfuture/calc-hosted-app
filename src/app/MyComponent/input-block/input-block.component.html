@@ -1,0 +1,18 @@
+<div class="input-block">
+  <form  #form="ngForm" ngNativeValidate (ngSubmit)="calculate()">
+      <app-input-date  [label] = "'From:'" [fieldValue]="startDate" (valueChange)="updateValue($event,'startDate')"></app-input-date>
+      <app-input-date  [label] = "'To:'" [fieldValue]="endDate" (valueChange)="updateValue($event,'endDate')"></app-input-date>
+
+      <app-toggle-slider [label]="'Include Weekends?'" [value]="includeWeekendInd" (valueChange)="updateValue($event,'includeWeekendInd')" checked></app-toggle-slider>
+      <app-toggle-slider [label]="'Include End Day?'" [value]="includeLastDayInd" (valueChange)="updateValue($event,'includeLastDayInd')" checked></app-toggle-slider>
+      
+      <div class="submit-button">
+        <input type="submit" class="button" value="Calculate">
+      </div>
+  </form>
+  <app-output-block *ngIf="noOfDays>=0"  [output]="noOfDays" [@inOutAnimation]></app-output-block>
+</div>
+<footer class="footer">
+  <a href="https://github.com/letsbuildfuture/calc-hosted-app" target="_blank"><img class="git-icon" src="/assets/git.png" alt="git-repository" title="GIT Repository for this page"></a>
+</footer>
+  

@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import './app/app.component.css';
+@import './app/MyComponent/input-block/input-block.component.css';
+@import './app/MyComponent/output-block/output-block.component.css';
+@import './app/MyComponent/input-date/input-date.component.css';
+@import './app/MyComponent/submit-button/submit-button.component.css';
+@import './app/MyComponent/toggle-slider/toggle-slider.component.css';
